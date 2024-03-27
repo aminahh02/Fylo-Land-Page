@@ -1,0 +1,663 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  margin: 40px 60px;
+  line-height: 1.3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.logo {
+  width: 50%;
+}
+
+.nav {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+}
+
+.nav ul li {
+  margin-left: 5vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5vw;
+}
+
+.section {
+  line-height: 1.3;
+  display: flex;
+  margin-top: 10vh;
+  column-gap: 0.6rem;
+}
+
+.section .left {
+  display: flex;
+  position: relative;
+  top: 11vh;
+  width: 50%;
+  flex-direction: column;
+  row-gap: 2.8vh;
+}
+
+.section h1,
+.lefter h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3vw;
+}
+
+.section .article p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4vw;
+  margin-right: 1.5vw;
+}
+
+.section .left form {
+  display: flex;
+  width: 100%;
+  column-gap: 1vw;
+}
+
+.section .fill {
+  width: 100%;
+}
+
+.section .enter {
+  width: 55%;
+}
+
+.section .left input {
+  text-align: left;
+  width: 100%;
+  padding: 0.9vw 1vw;
+  border-radius: 4px;
+  border: 2px solid hsl(0, 0%, 75%);
+}
+
+.section input::placeholder {
+  color: hsl(0, 0%, 75%);
+  opacity: 0.5;
+  font-size: 1.3vw;
+}
+
+.section .reg {
+  width: 45%;
+  max-width: 14vw;
+}
+
+.section .left .bttn {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 1vh 0vh;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.section .reg p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.45vw;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.bttn:hover {
+  transition: 200ms ease-out;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section .right {
+  width: 50%;
+}
+
+.section .one {
+  width: 100%;
+}
+
+/* This is the end of the header section and now the start of the 2nd part! */
+
+.pic {
+  margin-top: 120px;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+/* this was spaced to align with the top */
+.space {
+  display: flex;
+  background-color: #f8f8fe;
+  margin-top: -7px;
+}
+
+.mar {
+  margin: 100px 60px;
+  display: flex;
+  column-gap: 3vw;
+}
+
+.lefter {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  row-gap: 3vh;
+}
+
+.mar h1 {
+  line-height: 1.3;
+  font-family: "Raleway", sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.space .para1,
+.para2 {
+  line-height: 1.3;
+  padding-right: 12vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.23vw;
+  font-weight: 400;
+}
+
+.work {
+  display: flex;
+  color: hsl(170, 45%, 43%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5vw;
+}
+
+.review {
+  margin-top: 3.5vh;
+  border: 5px solid rgba(191, 191, 191, 0.15);
+  background-color: white;
+  max-width: 26vw;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.review p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.12vw;
+  line-height: 3.5vh;
+}
+
+.foot {
+  display: flex;
+  margin-top: 20px;
+  column-gap: 2px;
+}
+
+.foot .imge {
+  width: 12%;
+}
+
+.foot img {
+  border-radius: 50%;
+  max-width: 2.4vw;
+}
+
+.kyle {
+  padding-top: 1.5vh;
+  line-height: 0.4;
+  width: 87%;
+}
+
+.kyle h3 {
+  font-size: 1vw;
+}
+
+.foot p {
+  font-size: 0.7vw;
+}
+
+.righter {
+  position: relative;
+  top: 5vh;
+  width: 40%;
+}
+
+.righter img {
+  width: 100%;
+}
+
+/* The end of the 2nd section and the start of the third */
+
+.third {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.spaced {
+  margin: 0px 60px 0px 60px;
+  padding: 90px 0px;
+  display: flex;
+  column-gap: 150px;
+}
+
+.spaced .lefts {
+  width: 104%;
+}
+
+.spaced .lefts h2 {
+  color: hsl(240, 75%, 98%);
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5vw;
+}
+
+/* mids is the paragraph div */
+.mids {
+  padding-top: 3vh;
+}
+
+.spaced .lefts p {
+  line-height: 4.5vh;
+  color: hsl(240, 75%, 98%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 400;
+}
+
+.spaced .rights {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+}
+
+.third .rights form {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 2vh;
+}
+
+.third .rights input {
+  text-align: left;
+  width: 100%;
+  padding: 1vw 1vw;
+  border-radius: 4px;
+  border: 1px solid hsl(0, 0%, 75%);
+}
+
+.third input::placeholder {
+  color: hsl(0, 0%, 75%);
+  opacity: 0.5;
+  font-size: 1.2vw;
+}
+
+.third .enters {
+  width: 100%;
+}
+
+.third .rights .bttns {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  width: 100%;
+  color: white;
+  padding: 1vh 0vh;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.third .regs {
+  width: 100%;
+  max-width: 14vw;
+}
+
+.third .regs p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.bttns:hover {
+  transition: 200ms ease-out;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* This is the last part of the page */
+.last {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.spaces {
+  margin: 0px 60px 0px 60px;
+  padding: 90px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.spaces li:hover, .west p:hover, .sides:hover {
+  transition: 200ms ease-out;
+  cursor: pointer;
+  color: hsl(238, 22%, 44%);
+}
+
+.points {
+  display: flex;
+  color: hsl(240, 75%, 98%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3vw;
+  font-weight: 400;
+  justify-content: space-between;
+  margin-top: 4vh;
+  max-width: 80vw;
+}
+
+.north {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5vh;
+
+  .sides {
+    display: flex;
+    column-gap: 1.5vw;
+  }
+}
+
+.east ul,
+.south ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+}
+
+.west {
+
+  .awe {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .one, .two, .three {
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-left: 12px;
+  }
+
+  .one {
+    padding: 9px 12px;
+  }
+
+}
+
+.east li, .south li, .west p {
+  color: white;
+}
+
+.east li > a, .south li > a, .work p > a, .work img > a{
+  text-decoration: none;
+}
+
+.attribution {
+  color: hsl(240, 75%, 98%);
+  font-size: 1.5vw;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+/* media queries for 425px */
+@media (max-width: 600px) {
+  .nav ul li {
+    font-size: 2.5vw;
+  }
+
+  /* first part */
+  .header {
+    line-height: 1.3;
+    margin: 40px 40px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 3vh;
+    height: 100%;
+    width: 100%;
+  }
+
+  .section .left {
+    height: 50%;
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+
+  .section .right {
+    height: 50%;
+    width: 100%;
+  }
+
+  .section .left form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 1vw;
+  }
+
+  .section .fill {
+    width: 100%;
+  }
+
+  .section .enter {
+    width: 100%;
+  }
+
+  .section input::placeholder,
+  .section .reg p {
+    font-size: 2.5vw;
+  }
+
+  .section .reg {
+    min-width: 100%;
+  }
+
+  .section .left .heading h1 {
+    font-size: 5.5vw;
+  }
+
+  .section .left .article p {
+    padding: 12px;
+    font-size: 3.5vw;
+  }
+
+  /* second part */
+  .mar {
+    margin: 50px 40px;
+    flex-direction: column-reverse;
+    display: flex;
+    row-gap: 12vh;
+  }
+
+  .lefter {
+    width: 100%;
+    row-gap: 7vh;
+    height: 60%;
+  }
+
+  .righter {
+    position: static;
+    width: 100%;
+    height: 40%;
+  }
+
+  .mar h1 {
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .space .para1,
+  .para2 {
+    padding-right: 0vw;
+    font-size: 3.8vw;
+  }
+
+  .work {
+    justify-content: center;
+    display: flex;
+    font-size: 4vw;
+  }
+
+  .review {
+    margin: 0vw 5vw 4vw 5vw;
+    max-width: 100%;
+    background-color: white;
+    padding: 20px;
+    border: 5px solid rgba(191, 191, 191, 0.15);
+    border-radius: 7px;
+  }
+
+  .review p {
+    font-size: 2.9vw;
+    line-height: 4vh;
+  }
+
+  .foot .imge {
+    width: 15%;
+  }
+
+  .foot img {
+    max-width: 80%;
+  }
+
+  .kyle {
+    width: 85%;
+  }
+
+  .kyle h3 {
+    font-size: 2.7vw;
+  }
+
+  .foot p {
+    font-size: 1.6vw;
+  }
+
+  /* third part */
+  .spaced {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+  }
+
+  .spaced .lefts {
+    width: 100%;
+  }
+
+  .spaced .tip {
+    text-align: center;
+  }
+
+  .spaced .lefts h2 {
+    font-size: 5vw;
+  }
+
+  /* mids is the paragraph div */
+  .mids {
+    padding-top: 4vh;
+    text-align: center;
+  }
+
+  .spaced .lefts p {
+    line-height: 5vh;
+    font-size: 4vw;
+  }
+
+  .spaced .rights {
+    margin-top: 6vh;
+    width: 100%;
+  }
+
+  .third .rights form {
+    padding: 0vw 5vw;
+    align-items: center;
+  }
+
+  .third .rights input {
+    padding: 2vw 1vw;
+  }
+
+  .third input::placeholder {
+    font-size: 3vw;
+  }
+
+  .third .regs {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .third .regs p {
+    font-size: 2.5vw;
+  }
+
+  /* last part!!! */
+  .points {
+    flex-direction: column;
+    font-size: 3vw;
+    row-gap: 12vh;
+  }
+
+  .east ul,
+  .south ul {
+    row-gap: 4vh;
+  }
+
+  .west {
+    display: flex;
+    justify-content: center;
+
+    .awe {
+        display: flex;
+        flex-direction: row;
+      }
+    
+      .one, .two, .three {
+        padding: 8px;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin-left: 12px;
+      }
+    
+      .one {
+        padding: 9px 12px;
+      }
+    
+  }
+
+  .attribution {
+    text-align: center;
+    font-size: 3vw;
+  }
+}
